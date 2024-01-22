@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Fomulario de contacto para CETIUC">
+	<meta name="keywords" content="CETIUC, Satisfaccion TI, Servicios TI, NPS, Calidad de servicios, Medición, Benchmark">
+
+	<title>ITSat-Contacto</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="../index.html"><img src="../assets/img/CETIUC.png" alt=""></a>
+		</div>
+		<nav>
+			<div class="menu-hamburguesa">
+				<input type="checkbox" id="menu">
+				<label for="menu"> ☰ </label>
+				<ul class="navbar">
+					<li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+					<li><a href="./servicios.html">SATISFACCION TI</a></li>
+					<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
+					<li><a href="#">CONTACTO</a></li>		
+				  </ul>
+			</div>
+			<ul class="navbar">
+				<li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+				<li><a href="./servicios.html">SATISFACCION TI</a></li>
+				<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
+				<li><a href="#">CONTACTO</a></li>		
+			</ul>
+		  </nav>
+		</header>
+	
+	<main>
+	<div class="formulario">			
+        <div>
+            <br>
+            <h1>Este es una calculadora de NPS (Net Promoter Score)</h1>
+            <br>
+            <label>Indique el nombre de la empresa:</label>
+            <input type="text" name="Nombre" placeholder="Ingrese nombre">
+            <br>
+            <br>
+            <label>Indique la cantidad de evaluaciones de 0 a 6: </label>
+            <input type="number" name="Detractores" placeholder="Ingrese un número">
+            <br>
+            <label>Indique la cantidad de evaluaciones de 7 a 8: </label>
+            <input type="number" name="Neutros" placeholder="Ingrese un número">
+            <br>
+            <label>Indique la cantidad de evaluaciones de 9 a 10: </label>
+            <input type="number" name="Promotores" placeholder="Ingrese un número">
+            <br>
+            <br>
+            <button id="boton-enviar">Enviar</button>
+            <br>
+            <div id="contenedor">
+            </div>
+            <script src="nps.js"></script>
+        </div>	 		
+	</div>	
+	</main>
+
+	<footer>
+		<nav>
+			<ul class="menupie">
+				<li><a href="../views/error404.html">Términos y Condiciones</a></li>
+				<li><a href="../views/error404.html">Política de Privacidad</a></li>
+				<li><a href="../views/error404.html">Empresa</a></li>
+				<li><a href="../views/error404.html">Contactáctanos</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

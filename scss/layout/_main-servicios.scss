@@ -1,0 +1,61 @@
+.servicio{
+    @include flex (repeat(2,1fr),repeat(2,1fr));
+    @include setting-inicial;
+    height: 600px;
+    width: 100%;
+    .section-33{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    .section-34{
+        grid-column:1/2;
+        grid-row:2/3;
+        align-self: center;
+        justify-self: center;
+        .tabla-servicios{
+            text-align: center;
+            padding: 15px;
+            tr{
+                background-color: $bg;
+                color: $fc;
+                padding: 10px;
+            }
+            td{
+              height: 20px;
+              vertical-align: center;  
+              background-color: $bg;
+              color: $fc;
+              border-bottom: 1px solid #ddd;
+            }
+        }
+    }
+    .section-35{
+            grid-column:2/3;
+            grid-row:1/2;
+        }
+    
+    .section-36{
+        grid-column:2/3;
+        grid-row:2/3;
+        align-self: left;
+        justify-self: center;
+        .tabla-dimensiones{
+            text-align: center;
+            padding: 10px;
+            td{
+                height: 20px;
+                vertical-align: center;  
+                border-bottom: 1px solid #ddd;
+                padding: 15px;
+            }
+            .atributo{
+                background-color: $fc;
+                color:$bg;
+            }
+            .ejemplo{
+                background-color: $bg;
+                color:$fc;
+            }
+        }
+    }
+}

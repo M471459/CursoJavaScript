@@ -1,0 +1,79 @@
+
+h1{
+    font-size: 40px;
+    width: 100%;
+   font-style: oblique;
+   color:slategray;
+   text-align: center;
+}
+h4 {
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Gotham Rounded Light';
+   font-style: oblique;
+   color:$fc;
+   text-align: justify;  
+   text-indent: 40px;
+}
+
+h8 {
+    font-size: 20px;
+    font-family: 'Gotham Rounded Lidght';
+    color:#716f6f;
+    text-align: center;  
+}
+
+h9 {
+    font-size: 20px;
+    font-family: 'Gotham Rounded Lidght';
+    color:#fdfcfc;
+    text-align: center;  
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Gotham Rounded Light';
+    text-align: center;
+    color: $fc;
+    font-style:bold;
+}
+h3 {
+    font-size: 15px;
+    font-family: 'Gotham Rounded Light';
+    color: rgb(7, 7, 7);
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+h5 {
+    font-size: 15px;
+    font-family: 'Gotham Rounded Light';
+    color: rgb(7, 7, 7);
+    text-align: left;
+    font-style: normal;
+}
+h6 {
+    font-size: 15px;
+    font-family: 'Gotham Rounded Light';
+    color: rgb(7, 7, 7);
+    font-style: oblique;
+    text-align: left;
+}
+
+.texto-justificado{
+    text-align: justify;
+
+}
+
+@media(max-width:320px){
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}

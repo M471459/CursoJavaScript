@@ -1,0 +1,39 @@
+header{
+    .menu-hamburguesa{
+        display: none;
+    }
+    display:flex;
+    width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+    background-color: $bg;
+	align-items: flex-end;
+    border-style: none;
+    padding: 1.5rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index:2;
+    div{
+        img{
+        width:12rem;
+        }
+    }
+    .navbar{
+        display: flex;
+        align-items: flex-end;
+        list-style: none;
+        gap: 1.5rem;
+        li a{
+            text-decoration: none;
+            color: #307fe2;
+            font-size: 0.9rem;
+            font-family: 'Gotham Rounded Medium';
+            font-weight: bold;
+
+            &:hover{
+                color:  rgb(5, 34, 69);
+            }
+        }
+    }
+
+}

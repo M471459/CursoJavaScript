@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Fomulario de contacto para CETIUC">
+	<meta name="keywords" content="CETIUC, Satisfaccion TI, Servicios TI, NPS, Calidad de servicios, Medición, Benchmark">
+
+	<title>ITSat-Contacto</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="../index.html"><img src="../assets/img/CETIUC.png" alt=""></a>
+		</div>
+		<nav>
+			<div class="menu-hamburguesa">
+				<input type="checkbox" id="menu">
+				<label for="menu"> ☰ </label>
+				<ul class="navbar">
+					<li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+					<li><a href="./servicios.html">SATISFACCION TI</a></li>
+					<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
+					<li><a href="#">CONTACTO</a></li>		
+				  </ul>
+			</div>
+			<ul class="navbar">
+				<li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
+				<li><a href="./servicios.html">SATISFACCION TI</a></li>
+				<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
+				<li><a href="#">CONTACTO</a></li>		
+			</ul>
+		  </nav>
+		</header>
+	
+	
+	<main>
+		<div class="formulario">			
+		<h2>Formulario de contacto</h2>
+		<br>
+		<h4>Indícanos tus datos y nos pondremos en contacto contigo a la brevedad.</h4>
+		<br>
+		<p>
+		<label for="nombre" class="indicar_nombre">Nombre </label>
+		<input type="text" name="introducir_nombre" id="nombre" required="obligatorio">
+		</p>
+								
+		<p>
+		<label for="email" class="indicar_email">Email</label>
+		<input type="email" name="introducir_email" id="email" required="obligatorio">
+		</p>
+							
+		<p>
+		<label for="telefone" class="indicar_telefono">Teléfono</label>
+		<input type="tel" name="introducir_telefono" id="telefono">
+		</p>		
+										
+		<p>
+		<label for="asunto" class="indicar_asunto">Asunto</label>
+		<input type="text" name="introducir_asunto" id="assunto" required="obligatorio">
+		</p>		
+								
+		<p>
+		<label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
+		<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"></textarea> 
+		</p>	  								
+								
+		<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>					
+		</div>	
+	</main>
+
+	<footer>
+		<nav>
+			<ul class="menupie">
+				<li><a href="../views/error404.html">Términos y Condiciones</a></li>
+				<li><a href="../views/error404.html">Política de Privacidad</a></li>
+				<li><a href="../views/error404.html">Empresa</a></li>
+				<li><a href="../views/error404.html">Contactáctanos</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

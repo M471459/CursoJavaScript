@@ -1,0 +1,176 @@
+@media(max-width:425px){
+    header{
+        .logo{
+            display: flex;
+            align-self: flex-start;
+            width:50%;
+            height:100%;
+        }
+        .navbar{
+            display:none; 
+            ;
+        }
+        .menu-hamburguesa{
+            display: flex;
+            flex-direction:row;
+            align-content: end;
+            ul{
+              display: none;
+            }
+            
+            input:checked  ~ ul{
+              display:block;
+            }
+            
+            input {
+              display: none;
+            }
+            
+            label {
+              box-sizing: border-box;
+              display: inline-block;
+              border: 1px solid black;
+              border-radius: 5px;
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              font-weight: bold;
+              text-align: center;
+              user-select: none;
+            }
+            
+            /* Estilo del boton cuando se pasa el mouse por encima*/
+            label:hover{
+              background: grey;
+            }
+            
+            /* Estilo del boton cuando el menú está expandido*/
+            input:checked ~ label {
+              background: lightgrey; 
+            }
+            
+            ul{
+              margin-top:0;
+              padding: 0;
+              width: 200px;
+            
+            }
+            
+            
+            li {
+              display: block;
+              background: lightgrey;
+              margin: 0;
+              padding: 10px;
+              list-style: none;
+              border-bottom: 1px solid grey;
+            }
+            
+            /*Estilo cuando el mouse pasa encima de cada link del menu*/
+            li:hover {
+              filter: brightness(110%);
+            }
+        }
+        
+           
+    }
+    .main_index{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(4,1fr);
+            .section-3{
+                grid-column: 1/1;
+                grid-row:1/2;
+            }
+            .section-4{
+                grid-column: 1/1;
+                grid-row:2/3;
+            }
+        
+            .section-5{
+                grid-column: 1/1;
+                grid-row:3/4;
+            }
+            .section-6{
+                grid-column: 1/2;
+                grid-row:4/5;
+            }
+            .section-7{
+                display: none;
+            }
+    
+            .section-8{
+                display: none;
+            }
+        
+        }
+    .servicio{
+      height: 2000px;
+      .section-33,.section-35{
+        display: none;
+      }
+    }
+    .main_estadisticas{
+            grid-template-rows: repeat(6,1fr);
+            align-items: left;
+            overflow: hidden;
+            .section-9{
+                grid-column:1/2;
+                grid-row:1/2;
+               }
+               .section-10{
+                grid-column:1/2;
+                grid-row:2/3;
+               }
+               .section-13{
+                grid-column:1/2;
+                grid-row:3/4;
+               }
+               .section-15{
+                grid-column:1/2;
+                grid-row:4/5;
+               }
+               .section-17{
+                grid-column:1/2;
+                grid-row:5/6;
+               }
+               .section-19{
+                grid-column:1/2;
+                grid-row:6/7;
+               }
+               .section-11{
+                display: none;
+               }
+               .section-12{
+                display: none;
+               }
+               .section-14{
+                display: none;
+               }
+               .section-16{
+                display: none;
+               }
+               .section-18{
+                display: none;
+               }
+               .section-20{
+                display: none;
+               }
+               .section-21{
+                display: none;
+               }
+               .section-22{
+                display: none;
+               }
+               .section-23{
+                display: none;
+               }
+               .section-24{
+                display: none;
+               }
+       }
+       footer{
+        font-size: 10px;
+       }
+
+    }
+    

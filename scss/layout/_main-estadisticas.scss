@@ -1,0 +1,144 @@
+.main_estadisticas{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 1px;
+    width: 100%;
+    align-items: center;
+    @include flex (repeat(2,1fr),repeat(10,1fr));
+    @include setting-inicial;
+    .section-9{
+        grid-column:2/3;
+        grid-row:1/2;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        .section9-img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .section-10{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:2/3;
+    }
+    
+    .section-11{
+        grid-column: 1/2;
+        grid-row:1/2;
+        align-items: right;
+    }
+    
+    .section-12{
+        @extend .section-11;
+        grid-row:2/3;
+        align-items: center;
+    }
+    
+    .section-13{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:3/4;
+    }
+    
+    .section-14{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:3/4;
+    }
+    
+    .section-15{
+        @extend .section-11;
+        grid-column:2/3;
+        grid-row:4/5;
+    }
+    
+    .section-16{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:4/5;
+
+    }
+    
+    .section-17{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:5/6;
+    }
+    
+    .section-18{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:5/6;
+    }
+    
+    .section-19{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:6/7;
+    }
+    .section-20{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:6/7;
+    }
+    
+    .section-21{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:7/8;
+    
+    }
+    
+    
+    .section-22{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:7/8;
+    }
+    
+    
+    .section-23{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:8/9;
+    }
+    .section-24{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:8/9;
+    }
+    
+    .section-25{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:9/10;
+    }
+    
+    .section-26{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:9/10;
+    }
+    
+    .section-27{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:10/11;
+    }
+    
+    .section-28{
+        @extend .section-11;
+        grid-column: 1/2;
+        grid-row:10/11;
+    }
+    .section-29{
+        @extend .section-9;
+        grid-column:2/3;
+        grid-row:11/12;
+    }
+    
+}

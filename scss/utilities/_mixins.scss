@@ -1,0 +1,15 @@
+@mixin flex ($columns,$rows){
+    display: grid;
+    align-items: center;
+    grid-template-columns:$columns;
+    grid-template-rows:$rows;
+}
+
+
+@mixin setting-inicial{
+    padding: 0px 2px 0px 2px;
+    background-color: $bg;
+    color:$fc;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

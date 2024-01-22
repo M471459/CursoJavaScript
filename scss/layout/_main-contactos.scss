@@ -1,0 +1,49 @@
+.formulario{	
+    width: 500px; 
+    height: auto;
+    margin: 20px auto;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    font-family: 'Gotham Rounded Light';
+    input{
+        background-color: #fbfbfb; 
+        width: 500px; 
+        height: 40px; 
+        border-style: solid; 
+        border-width: 1.5px; 
+        border-color: #307fe2;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        border-radius: 3px;  
+    }
+        
+    textarea{
+        background-color: #ffffff; 
+        width: 500px; 
+        height: 150px; 
+        border-style: solid; 
+        border-width: 1.5px; 
+        border-radius: 3px;  
+        border-color: #307fe2; 
+        padding-left: 10px;
+        margin-bottom: 20px;  
+        padding-top: 10px;
+       
+    }
+       
+    
+    button{
+        height: 45px; 
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 5px; 	 	
+        background-color: #307fe2; 
+        border-color: #53565a; 
+        border-style: solid; 
+        border-radius: 10px;	
+        width: 500px;  
+        p{
+            color: #fff; 
+        }    
+    }
+}    
