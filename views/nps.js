@@ -15,7 +15,7 @@ let empresa={
 }
 
 function Obtener_NPS (promotores, detractores,neutros){
-    return (promotores-detractores)/promotores+detractores+neutros
+    return ((promotores-detractores)/(promotores+detractores+neutros)).toFixed(2)*100
 }
 
 inputs.forEach((input) => {
