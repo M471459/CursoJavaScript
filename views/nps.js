@@ -1,4 +1,3 @@
-
 const BotonEnviar = document.querySelector("#boton-enviar");
 const Contenedor = document.querySelector("#contenedor");
 const inputs = document.querySelectorAll("input");
@@ -38,6 +37,22 @@ BotonEnviar.addEventListener("click",()=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function Empresa(nombre,promotores,detractores,pasivos,n){
     this.nombre=nombre
@@ -64,6 +79,7 @@ function AgregarEncuestados(N){
             else if (elem[i]>6 && elem[i]<9) pasivos++
             else detractores++ 
         }
+
         ArrayEmpresas[j]=new Empresa(nombre,promotores,detractores, pasivos,n);
     }
     return ArrayEmpresas;

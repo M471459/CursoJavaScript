@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Fomulario de contacto para CETIUC">
+	<meta name="description" content="Calculadora NPS">
 	<meta name="keywords" content="CETIUC, Satisfaccion TI, Servicios TI, NPS, Calidad de servicios, Medición, Benchmark">
 
 	<title>ITSat-Contacto</title>
@@ -22,8 +22,9 @@
 					<li><a href="./quienes-somos.html">QUIENES SOMOS</a></li>
 					<li><a href="./servicios.html">SATISFACCION TI</a></li>
 					<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
-					<li><a href="./nps.html">NPS</a></li>
-					<li><a href="#">CONTACTO</a></li>		
+					<li><a href="./nps.html">CALCULADORA NPS</a></li>
+					<li><a href="./buscarnps.html">BUSCAR NPS</a></li>
+					<li><a href="./contactenos.html">CONTACTO</a></li>		
 				  </ul>
 			</div>
 			<ul class="navbar">
@@ -31,46 +32,30 @@
 				<li><a href="./servicios.html">SATISFACCION TI</a></li>
 				<li><a href="./estadisticas.html">ESTADISTICAS</a></li>
 				<li><a href="./nps.html">CALCULADORA NPS</a></li>
-				<li><a href="./buscarnps.html">BUSCAR NPS</a></li>
-				<li><a href="#">CONTACTO</a></li>		
+				<li><a href="#">BUSCAR NPS</a></li>
+				<li><a href="./contactenos.html">CONTACTO</a></li>			
 			</ul>
 		  </nav>
 		</header>
 	
-	
 	<main>
-		<div class="formulario">			
-		<h2>Formulario de contacto</h2>
-		<br>
-		<h4>Indícanos tus datos y nos pondremos en contacto contigo a la brevedad.</h4>
-		<br>
-		<p>
-		<label for="nombre" class="indicar_nombre">Nombre </label>
-		<input type="text" name="introducir_nombre" id="nombre" required="obligatorio">
-		</p>
-								
-		<p>
-		<label for="email" class="indicar_email">Email</label>
-		<input type="email" name="introducir_email" id="email" required="obligatorio">
-		</p>
-							
-		<p>
-		<label for="telefone" class="indicar_telefono">Teléfono</label>
-		<input type="tel" name="introducir_telefono" id="telefono">
-		</p>		
-										
-		<p>
-		<label for="asunto" class="indicar_asunto">Asunto</label>
-		<input type="text" name="introducir_asunto" id="assunto" required="obligatorio">
-		</p>		
-								
-		<p>
-		<label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
-		<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"></textarea> 
-		</p>	  								
-								
-		<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>					
-		</div>	
+	<div class="formulario">			
+        <div>
+            <br>
+            <h1>Buscar NPS</h1>
+            <br>
+			<br>
+            <label>Indique el nombre de la empresa que desea conocer su NPS:</label>
+            <input type="text" name="Nombre" placeholder="Ingrese nombre">
+            <br>
+            <br>
+            <button id="boton-enviar">Enviar</button>
+            <br>
+            <div id="contenedor2">
+            </div>
+            <script src="buscarnps.js"></script>
+        </div>	 		
+	</div>	
 	</main>
 
 	<footer>
